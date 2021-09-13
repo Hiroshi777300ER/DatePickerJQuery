@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: brown;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1  {
+    margin: 100px;
+    color:cornflowerblue;
+    font-size:larger;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+h1 span {
+    font-weight: 500;
+}
+
+.date-picker {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    height: 100px;
+    background-color: darkcyan;
+    margin: auto;
+    box-shadow:darksalmon;
+    margin: 50px auto;
+    box-shadow:dimgray;
+
+    cursor: grab;
+    user-select: none;
+}
+
+.date-picker .selected-date {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 40px;
+}
+
+.date-picker .dates
